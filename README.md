@@ -8,16 +8,17 @@
 
 ## 1. On-Device & Privacy-First Architecture
 
-Tarotora is designed with a strict **privacy-first architecture**. 
+Tarotora is built with a strict **privacy-first architecture**.
 
-- **Local Data Storage:** All your tarot card readings, saved spreads, custom notes, and local AI-generated reflections are processed and stored exclusively **on your device**. 
-- **No External Servers:** We do not host external databases, nor do we transmit, collect, or store your personal reading data on any remote servers.
+- **Session-Only Data:** All tarot card readings and AI reflections are generated entirely on-device and held temporarily during your active app session. 
+- **No Saved History:** Tarotora does not store or maintain a permanent reading history, saved spreads archive, or database of your past sessions. Once your session ends or the app closes, session data is cleared.
+- **No External Servers:** We do not operate remote databases, nor do we transmit, collect, or upload your reading data to any external servers.
 
 ---
 
 ## 2. Information Collection and Use
 
-Because all core application data remains local to your device:
+Because reading data remains local and temporary:
 
 - We **do not** collect personal identification information (such as your name, email address, physical address, or phone number).
 - We **do not** track your activity across other apps or websites.
@@ -27,26 +28,23 @@ Because all core application data remains local to your device:
 
 ## 3. In-App Purchases & Payments
 
-Tarotora offers optional digital content and premium subscriptions (such as deck unlocks and pass options). 
+Tarotora offers optional digital content and premium features (such as deck unlocks and pass options).
 
 - All financial transactions and payment processing are handled entirely and directly by **Apple Inc.** via **StoreKit 2**.
 - We **do not** have access to, collect, or store your credit card details, bank information, or billing credentials.
-- Your purchase history and active entitlements are validated securely through Apple's native App Store frameworks on your device.
+- Your active entitlements and purchase history are validated securely through Apple's native App Store frameworks on your device.
 
 ---
 
 ## 4. Third-Party Services
 
-Tarotora does not integrate third-party advertising networks, data brokers, or external tracking services. If you access external websites or services (e.g., through web links in legal documentation), those services operate under their own independent privacy practices.
+Tarotora does not integrate third-party advertising networks, data brokers, or external analytics SDKs.
 
 ---
 
-## 5. Data Retention & Deletion
+## 5. Data Retention & Control
 
-Since all application data and history reside strictly on your local hardware:
-
-- You have full control over your data at all times.
-- Deleting the Tarotora application from your device will permanently remove all associated app data, saved readings, and local preferences.
+Since no reading history is recorded on-device or remotely, there is no persistent user data stored by the app. App settings or purchase entitlement flags are managed on-device via native system frameworks and are removed if the app is uninstalled.
 
 ---
 
@@ -58,4 +56,4 @@ We may update our Privacy Policy from time to time to reflect changes in legal r
 
 ## 7. Contact Us
 
-If you have any questions or suggestions regarding this Privacy Policy, please feel free to reach out to us via GitHub Issues or contact support through our App Store page.
+If you have any questions or suggestions regarding this Privacy Policy, please reach out via GitHub Issues or contact support through our App Store page.
